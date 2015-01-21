@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35957721A6F7D5300DD2A84 /* libsSql.m in Sources */ = {isa = PBXBuildFile; fileRef = D35957711A6F7D5300DD2A84 /* libsSql.m */; };
+		D359578D1A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35957881A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.m */; };
+		D359578E1A6F7DD100DD2A84 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D359578C1A6F7DD100DD2A84 /* SVProgressHUD.m */; };
+		D359578F1A6F7E3800DD2A84 /* SVProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D359578B1A6F7DD100DD2A84 /* SVProgressHUD.h */; };
+		D35957C51A6F85D300DD2A84 /* EASYSQL.m in Sources */ = {isa = PBXBuildFile; fileRef = D35957BE1A6F85D300DD2A84 /* EASYSQL.m */; };
+		D35957C61A6F85D300DD2A84 /* EASYSQLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D35957C01A6F85D300DD2A84 /* EASYSQLHandle.m */; };
+		D35957C71A6F85D300DD2A84 /* EASYSQLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D35957C41A6F85D300DD2A84 /* EASYSQLObject.m */; };
+		D35957C81A6F864400DD2A84 /* EASYSQLObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D35957C31A6F85D300DD2A84 /* EASYSQLObject.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D359576A1A6F7D5300DD2A84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				D35957C81A6F864400DD2A84 /* EASYSQLObject.h in CopyFiles */,
+				D359578F1A6F7E3800DD2A84 /* SVProgressHUD.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D359576C1A6F7D5300DD2A84 /* liblibsSql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibsSql.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D359576F1A6F7D5300DD2A84 /* libsSql.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libsSql.h; sourceTree = "<group>"; };
+		D35957711A6F7D5300DD2A84 /* libsSql.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libsSql.m; sourceTree = "<group>"; };
+		D359577D1A6F7D5300DD2A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35957871A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		D35957881A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		D35957891A6F7DD100DD2A84 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		D359578A1A6F7DD100DD2A84 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		D359578B1A6F7DD100DD2A84 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		D359578C1A6F7DD100DD2A84 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		D35957A11A6F7F9600DD2A84 /* NSDate+Exts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Exts.h"; sourceTree = "<group>"; };
+		D35957A21A6F7F9600DD2A84 /* NSDate+Exts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Exts.m"; sourceTree = "<group>"; };
+		D35957BD1A6F85D300DD2A84 /* EASYSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASYSQL.h; sourceTree = "<group>"; };
+		D35957BE1A6F85D300DD2A84 /* EASYSQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASYSQL.m; sourceTree = "<group>"; };
+		D35957BF1A6F85D300DD2A84 /* EASYSQLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASYSQLHandle.h; sourceTree = "<group>"; };
+		D35957C01A6F85D300DD2A84 /* EASYSQLHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASYSQLHandle.m; sourceTree = "<group>"; };
+		D35957C11A6F85D300DD2A84 /* EASYSQLVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASYSQLVersion.h; sourceTree = "<group>"; };
+		D35957C21A6F85D300DD2A84 /* EASYSQLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASYSQLKit.h; sourceTree = "<group>"; };
+		D35957C31A6F85D300DD2A84 /* EASYSQLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASYSQLObject.h; sourceTree = "<group>"; };
+		D35957C41A6F85D300DD2A84 /* EASYSQLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASYSQLObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35957691A6F7D5300DD2A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35957631A6F7D5300DD2A84 = {
+			isa = PBXGroup;
+			children = (
+				D359576E1A6F7D5300DD2A84 /* libsSql */,
+				D359577B1A6F7D5300DD2A84 /* libsSqlTests */,
+				D359576D1A6F7D5300DD2A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D359576D1A6F7D5300DD2A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D359576C1A6F7D5300DD2A84 /* liblibsSql.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D359576E1A6F7D5300DD2A84 /* libsSql */ = {
+			isa = PBXGroup;
+			children = (
+				D35957BB1A6F85D300DD2A84 /* DB */,
+				D35957A11A6F7F9600DD2A84 /* NSDate+Exts.h */,
+				D35957A21A6F7F9600DD2A84 /* NSDate+Exts.m */,
+				D35957861A6F7DD100DD2A84 /* SVProgressHUD */,
+				D359576F1A6F7D5300DD2A84 /* libsSql.h */,
+				D35957711A6F7D5300DD2A84 /* libsSql.m */,
+			);
+			path = libsSql;
+			sourceTree = "<group>";
+		};
+		D359577B1A6F7D5300DD2A84 /* libsSqlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D359577C1A6F7D5300DD2A84 /* Supporting Files */,
+			);
+			path = libsSqlTests;
+			sourceTree = "<group>";
+		};
+		D359577C1A6F7D5300DD2A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D359577D1A6F7D5300DD2A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D35957861A6F7DD100DD2A84 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D35957871A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.h */,
+				D35957881A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.m */,
+				D35957891A6F7DD100DD2A84 /* SVProgressHUD-Prefix.pch */,
+				D359578A1A6F7DD100DD2A84 /* SVProgressHUD.bundle */,
+				D359578B1A6F7DD100DD2A84 /* SVProgressHUD.h */,
+				D359578C1A6F7DD100DD2A84 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		D35957BB1A6F85D300DD2A84 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				D35957BC1A6F85D300DD2A84 /* Private */,
+				D35957C21A6F85D300DD2A84 /* EASYSQLKit.h */,
+				D35957C31A6F85D300DD2A84 /* EASYSQLObject.h */,
+				D35957C41A6F85D300DD2A84 /* EASYSQLObject.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		D35957BC1A6F85D300DD2A84 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				D35957BD1A6F85D300DD2A84 /* EASYSQL.h */,
+				D35957BE1A6F85D300DD2A84 /* EASYSQL.m */,
+				D35957BF1A6F85D300DD2A84 /* EASYSQLHandle.h */,
+				D35957C01A6F85D300DD2A84 /* EASYSQLHandle.m */,
+				D35957C11A6F85D300DD2A84 /* EASYSQLVersion.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D359576B1A6F7D5300DD2A84 /* libsSql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35957801A6F7D5300DD2A84 /* Build configuration list for PBXNativeTarget "libsSql" */;
+			buildPhases = (
+				D35957681A6F7D5300DD2A84 /* Sources */,
+				D35957691A6F7D5300DD2A84 /* Frameworks */,
+				D359576A1A6F7D5300DD2A84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsSql;
+			productName = libsSql;
+			productReference = D359576C1A6F7D5300DD2A84 /* liblibsSql.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35957641A6F7D5300DD2A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UThing;
+				TargetAttributes = {
+					D359576B1A6F7D5300DD2A84 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = D35957671A6F7D5300DD2A84 /* Build configuration list for PBXProject "libsSql" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D35957631A6F7D5300DD2A84;
+			productRefGroup = D359576D1A6F7D5300DD2A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D359576B1A6F7D5300DD2A84 /* libsSql */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35957681A6F7D5300DD2A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35957C51A6F85D300DD2A84 /* EASYSQL.m in Sources */,
+				D35957C71A6F85D300DD2A84 /* EASYSQLObject.m in Sources */,
+				D35957C61A6F85D300DD2A84 /* EASYSQLHandle.m in Sources */,
+				D35957721A6F7D5300DD2A84 /* libsSql.m in Sources */,
+				D359578D1A6F7DD100DD2A84 /* SVIndefiniteAnimatedView.m in Sources */,
+				D359578E1A6F7DD100DD2A84 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D359577E1A6F7D5300DD2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D359577F1A6F7D5300DD2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35957811A6F7D5300DD2A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D35957821A6F7D5300DD2A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35957671A6F7D5300DD2A84 /* Build configuration list for PBXProject "libsSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D359577E1A6F7D5300DD2A84 /* Debug */,
+				D359577F1A6F7D5300DD2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35957801A6F7D5300DD2A84 /* Build configuration list for PBXNativeTarget "libsSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35957811A6F7D5300DD2A84 /* Debug */,
+				D35957821A6F7D5300DD2A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35957641A6F7D5300DD2A84 /* Project object */;
+}
